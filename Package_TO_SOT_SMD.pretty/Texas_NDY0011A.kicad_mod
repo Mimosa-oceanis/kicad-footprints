@@ -1,4 +1,4 @@
-(module Texas_NDY0011A (layer F.Cu) (tedit 5CC39BBF)
+(module Texas_NDY0011A (layer F.Cu) (tedit 5F32C744)
   (descr "TO-PMOD-11 11-pin switching regulator package, http://www.ti.com/lit/ml/mmsf025/mmsf025.pdf")
   (tags "Texas TO-PMOD NDY00011A")
   (attr smd)
@@ -43,8 +43,8 @@
   (pad 6 smd rect (at 0 7.49) (size 0.86 2.41) (layers F.Cu F.Paste F.Mask))
   (pad 12 smd rect (at 0 -2.01) (size 9.126 13.37) (layers F.Cu F.Paste F.Mask))
   (model ${KISYS3DMOD}/Package_TO_SOT_SMD.3dshapes/Texas_NDY0011A.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
+    (offset (xyz 0 2 0))
+    (scale (xyz 0.39 0.39 0.39))
     (rotate (xyz 0 0 0))
   )
 )

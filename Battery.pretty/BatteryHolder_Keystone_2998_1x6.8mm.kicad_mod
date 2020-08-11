@@ -1,4 +1,4 @@
-(module BatteryHolder_Keystone_2998_1x6.8mm (layer F.Cu) (tedit 5E06C333)
+(module BatteryHolder_Keystone_2998_1x6.8mm (layer F.Cu) (tedit 5F32D109)
   (descr www.keyelco.com/product-pdf.cfm?p=763)
   (tags "Keystone type 2998 battery holder")
   (attr smd)
@@ -37,7 +37,7 @@
   (pad 2 smd rect (at 0 0) (size 3.96 3.96) (layers F.Cu F.Paste F.Mask))
   (model ${KISYS3DMOD}/Battery.3dshapes/BatteryHolder_Keystone_2998_1x6.8mm.wrl
     (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (scale (xyz 0.39 0.39 0.39))
+    (rotate (xyz -90 0 180))
   )
 )
