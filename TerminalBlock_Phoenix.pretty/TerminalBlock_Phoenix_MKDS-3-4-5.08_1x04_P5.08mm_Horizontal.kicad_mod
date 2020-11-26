@@ -1,4 +1,4 @@
-(module TerminalBlock_Phoenix_MKDS-3-4-5.08_1x04_P5.08mm_Horizontal (layer F.Cu) (tedit 5F32C987)
+(module TerminalBlock_Phoenix_MKDS-3-4-5.08_1x04_P5.08mm_Horizontal (layer F.Cu) (tedit 5FBDDC43)
   (descr "Terminal Block Phoenix MKDS-3-4-5.08, 4 pins, pitch 5.08mm, size 20.3x11.2mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/2138224.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix")
   (tags "THT Terminal Block Phoenix MKDS-3-4-5.08 pitch 5.08mm size 20.3x11.2mm^2 drill 1.3mm pad 2.6mm")
   (fp_text reference REF** (at 7.62 -6.96) (layer F.SilkS)
@@ -68,8 +68,8 @@
   (pad 3 thru_hole circle (at 10.16 0) (size 2.6 2.6) (drill 1.3) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 15.24 0) (size 2.6 2.6) (drill 1.3) (layers *.Cu *.Mask))
   (model ${KISYS3DMOD}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-3-4-5.08_1x04_P5.08mm_Horizontal.wrl
-    (offset (xyz -2.5 -5.25 0))
+    (at (xyz 0 0 0))
     (scale (xyz 0.39 0.39 0.39))
-    (rotate (xyz -90 0 90))
+    (rotate (xyz 0 0 0))
   )
 )
